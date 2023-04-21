@@ -1,0 +1,269 @@
+*:not(ol,ul,li){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(133, 58, 5, 0.913);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5rem;
+}
+
+header{
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a{
+    padding: 1rem;
+    align-items: baseline;
+    border: 1px solid rgba(82, 3, 3, 0.438);
+    border-radius: 15px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+a:hover, #logo:hover{
+    background-color: chocolate;
+}
+
+#logo{
+    width: 3rem;
+    height: 3rem;    
+    border: 1px solid rgba(82, 3, 3, 0.438);
+    border-radius: 15px;
+}
+h1, h2{
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+.imgIndex{
+    width: 80vw;
+    height: 70vh;
+}
+
+#p1, #p2{
+    text-align: center;
+}
+
+#p2{
+    width: 40%;
+}
+#mainIndex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#divIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imgIndex2{
+    height: 30vh;
+    width: 35vw;
+}
+
+div{    
+    margin: 3rem;
+}
+
+#mainAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divAbout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.img-aboutUs{
+    width: 10rem;
+    height: 10rem;
+}
+
+#imgContact{
+    width: 80%;
+    height: 40%;
+    margin: 1rem;
+}
+
+#mainContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#divContact{
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, tr, td{
+    border: 3px solid rgb(92, 8, 8);
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+#mainInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divTabla{
+    text-align: center;
+}
+
+.imgTip{
+    width: 30vw;
+    height: 30vh;
+    padding: 1rem;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.divTip2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ol,li,ul{
+    width: 90%;
+}
+
+li{
+    margin-left: 3rem ;
+}
+
+@media only screen and (max-width:468px) {
+
+    #div1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;        
+        margin: 0 3rem 0 0;
+    }
+
+    .divTip2{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 3rem 0 0;
+    }
+    
+}
+
+form {
+    width: 35rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #bb5507;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #c25f09;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+.imgRaffle{
+    width: 30vw;
+    height: 30vh;
+}
+
+#divRaffleImg{
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    justify-content: space-evenly;    
+    max-width: 35vw;
+}
+
+#divRaffle{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+iframe{
+    width: 50vw;
+    height: 50vh;
+}
